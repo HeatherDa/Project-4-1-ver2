@@ -53,7 +53,7 @@ namespace WindowsFormsApplication1
             decimal depth = Convert.ToDecimal(txtDepth.Text);   //change depth to decimal
             decimal area;
             decimal perimeter;
-
+             
             if(length!=0 && width!= 0){
                 area = length * width;                      //calculate area
                 perimeter = 2 * (length + width);           //calculate perimeter
