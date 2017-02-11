@@ -39,7 +39,7 @@
             this.txtLength = new System.Windows.Forms.TextBox();
             this.txtWidth = new System.Windows.Forms.TextBox();
             this.btnExit = new System.Windows.Forms.Button();
-            this.txtDepth = new System.Windows.Forms.TextBox();
+            this.txtHeight = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.txtVolume = new System.Windows.Forms.Label();
@@ -149,20 +149,20 @@
             // 
             // txtDepth
             // 
-            this.txtDepth.Location = new System.Drawing.Point(75, 107);
-            this.txtDepth.Name = "txtDepth";
-            this.txtDepth.Size = new System.Drawing.Size(185, 20);
-            this.txtDepth.TabIndex = 6;
-            this.txtDepth.TextChanged += new System.EventHandler(this.clearAnswers);
+            this.txtHeight.Location = new System.Drawing.Point(75, 107);
+            this.txtHeight.Name = "txtDepth";
+            this.txtHeight.Size = new System.Drawing.Size(185, 20);
+            this.txtHeight.TabIndex = 6;
+            this.txtHeight.TextChanged += new System.EventHandler(this.clearAnswers);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(9, 112);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(36, 13);
+            this.label4.Size = new System.Drawing.Size(38, 13);
             this.label4.TabIndex = 5;
-            this.label4.Text = "&Depth";
+            this.label4.Text = "&Height";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label7
@@ -202,7 +202,7 @@
             this.Controls.Add(this.btnAC);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.txtVolume);
-            this.Controls.Add(this.txtDepth);
+            this.Controls.Add(this.txtHeight);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.txtWidth);
@@ -236,7 +236,7 @@
         private System.Windows.Forms.TextBox txtLength;
         private System.Windows.Forms.TextBox txtWidth;
         private System.Windows.Forms.Button btnExit;
-        private System.Windows.Forms.TextBox txtDepth;
+        private System.Windows.Forms.TextBox txtHeight;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label txtVolume;

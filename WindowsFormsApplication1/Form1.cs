@@ -36,7 +36,7 @@ namespace WindowsFormsApplication1
         {
             txtLength.Text = "0"; 
             txtWidth.Text = "0";
-            txtDepth.Text = "0";
+            txtHeight.Text = "0";
             txtArea.Text = "";
             txtPerimeter.Text = "";
             txtVolume.Text = "";
@@ -50,7 +50,7 @@ namespace WindowsFormsApplication1
         {
             decimal length = Convert.ToDecimal(txtLength.Text); //change Length to decimal
             decimal width = Convert.ToDecimal(txtWidth.Text);   //change width to decimal
-            decimal depth = Convert.ToDecimal(txtDepth.Text);   //change depth to decimal
+            decimal height = Convert.ToDecimal(txtHeight.Text);   //change depth to decimal
             decimal area;
             decimal perimeter;
              
@@ -67,8 +67,8 @@ namespace WindowsFormsApplication1
             }
             
                 
-            if (depth !=0){                                     //check if a value for depth has been entered (i.e. object is 3D)
-                decimal volume = length * width * depth;                  //calculate volume for 3D
+            if (height !=0){                                     //check if a value for depth has been entered (i.e. object is 3D)
+                decimal volume = length * width * height;                  //calculate volume for 3D
                 txtVolume.Text = Convert.ToString(volume);      //display volume for 3D
             }
             
