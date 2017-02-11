@@ -94,7 +94,7 @@ namespace WindowsFormsApplication1
         {
             this.Close();
         }
-
+         
         private void clearAnswers(object sender, EventArgs e)
         {
             txtArea.Text = "";
