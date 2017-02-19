@@ -91,7 +91,6 @@
             this.label3.Size = new System.Drawing.Size(38, 13);
             this.label3.TabIndex = 3;
             this.label3.Text = "&Width:";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // txtPerimeter
             // 
@@ -118,7 +117,6 @@
             this.label6.Size = new System.Drawing.Size(54, 13);
             this.label6.TabIndex = 13;
             this.label6.Text = "Perimeter:";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // txtLength
             // 
@@ -150,7 +148,7 @@
             // txtDepth
             // 
             this.txtHeight.Location = new System.Drawing.Point(75, 107);
-            this.txtHeight.Name = "txtDepth";
+            this.txtHeight.Name = "txtHeight";
             this.txtHeight.Size = new System.Drawing.Size(185, 20);
             this.txtHeight.TabIndex = 6;
             this.txtHeight.TextChanged += new System.EventHandler(this.clearAnswers);
@@ -163,7 +161,6 @@
             this.label4.Size = new System.Drawing.Size(38, 13);
             this.label4.TabIndex = 5;
             this.label4.Text = "&Height";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label7
             // 
